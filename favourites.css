@@ -1,0 +1,40 @@
+.banner {
+  background-image: url(./images/copy-space-cinema-equipment.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  color: black;
+  width: 100vw;
+  height: 60vh;
+  overflow-x: hidden;
+}
+#headingFav {
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+.cross {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50px;
+  right: 35%;
+}
+.createDiv {
+  position: relative;
+  margin-top: 100px;
+}
+.posterImg {
+  margin-left: 50px;
+
+  width: 150px;
+  height: 200px;
+}
+
+.movieName {
+  margin-left: 40px;
+  display: inline-block;
+}
+.year {
+}

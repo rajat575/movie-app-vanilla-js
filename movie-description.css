@@ -1,0 +1,31 @@
+body {
+  background-image: url("./images/movie-background-collage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pageHeading {
+  text-align: center;
+  margin-top: 40px;
+  font-family: sans-serif;
+  color: white;
+}
+
+#mealImg {
+  margin-top: 20px;
+  height: 350px;
+  width: 350px;
+  border-radius: 12px;
+}
+#desc {
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#mealIns {
+  text-align: justify;
+}

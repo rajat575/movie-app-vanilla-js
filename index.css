@@ -1,0 +1,144 @@
+body {
+  font-family: sans-serif;
+}
+#searchDiv {
+  position: absolute;
+  top: 200px;
+  z-index: 10;
+}
+.navBar {
+  color: white;
+  position: absolute;
+  top: 47px;
+  z-index: 9;
+  right: 100px;
+}
+
+.navBar div {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#headline {
+  color: white;
+  position: absolute;
+  top: 234px;
+  left: 330px;
+  z-index: 9;
+}
+.carousel {
+  width: auto;
+  height: 80vh;
+  opacity: 90%;
+}
+
+#inputBox {
+  width: 700px;
+  margin-left: 390px;
+  border-radius: 18px;
+  height: 40px;
+  margin-top: 146px;
+  border: none;
+  font-size: 16px;
+  padding-left: 30px;
+}
+#inputBox:focus {
+  border: none;
+  outline: none;
+}
+#suggestionBox {
+  margin-left: 18px;
+  background-color: white;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  max-height: 200px;
+  padding: 0px 0px 0px 20px;
+  overflow-y: scroll;
+}
+#outerBox {
+  margin-top: 50px;
+  border-radius: 18px;
+  margin-left: 390px;
+  visibility: hidden;
+  padding: 5px;
+  background-color: white;
+  width: 701px;
+}
+.suggestion {
+  cursor: pointer;
+  margin-top: 5px;
+  padding-left: 15px;
+  width: 250px;
+  font-weight: bold;
+}
+
+#anchorDesc {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+
+  position: relative;
+}
+
+.suggestion:hover {
+  background-color: rgb(224, 223, 223);
+}
+/* .heart:checked ~ label {
+  color: red;
+}
+.heart {
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+
+} */
+
+.landingImage {
+  height: 80vh;
+  width: 100vw;
+}
+#movieCards {
+  max-width: 100vw;
+  flex-wrap: wrap;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 60px;
+  margin-right: 60px;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+.posterImage {
+  width: 250px;
+  height: 350px;
+  display: block;
+}
+/* label {
+  font-size: 3em;
+} */
+.divCard {
+  border: 2px solid black;
+  margin: 50px 30px 0px 30px;
+  position: relative;
+}
+.heart {
+  display: none;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.heartLabel {
+  font-size: 2.5em;
+  margin-left: 10px;
+  color: black;
+}
+
+.heart:checked + .heartLabel {
+  color: red;
+}
